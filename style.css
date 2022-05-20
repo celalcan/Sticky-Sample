@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  body{
+      font-family: 'Inter', sans-serif;
+  }
+
+  .bilgi{
+     height: 50vh;
+      width:100vw;
+      background-color: #140D91;
+      display:flex;
+      flex-direction: column;
+     align-items: center;
+     justify-content: center;
+  }
+  .bilgi p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+  }
+  .bilgi img{
+      padding-top: 100px;
+  }
+
+  .start_component{
+    height: 50vh;
+    width:100vw;
+    background-color: #F4F4F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .start_baslik{
+      height:18.18%;
+      width:100vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #000000;
+  }
+  .cards{
+    height:82.82%;
+    width:100vw;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .card{
+      width:238px;
+      height:211px;
+      background-color: #fff;
+      border-radius: 4px;
+      margin-right: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .card_logo{
+      height: 40%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+    justify-content: center;
+  }
+  .card_content{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  }
+  .card_content h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000000;
+  }
+  .card_content p{
+      width: 84%;
+      margin-top: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: #88878A;
+  }
