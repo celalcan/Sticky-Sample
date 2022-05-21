@@ -67,6 +67,9 @@
     justify-content: center;
     flex-direction: column;
   }
+  .card_four{
+    margin-right: 0px;
+  }
   .card_logo{
       height: 40%;
       width: 100%;
@@ -99,3 +102,20 @@
     text-align: center;
     color: #88878A;
   }
+  .finish_component{
+
+    height: 100vh;
+    max-width:100vw;
+    background-color: #140D91;
+    display:flex;
+   align-items: center;
+   justify-content: flex-start;
+   background-image: url("./Background-img.svg");background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   flex-direction: column;
+}
+.finish_baslik{
+    height: 50%;
+    max-width:100%;
+}
