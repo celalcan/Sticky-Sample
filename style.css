@@ -30,15 +30,23 @@
   }
 
   .start_component{
-    height: 50vh;
+    height: 150vh;
     width:100vw;
     background-color: #F4F4F5;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+  .start-top{
+    height:50vh;
+    width:100vw;
+  }
+  .start-bottom{
+    height:100vh;
+    width:100vw;
   }
   .start_baslik{
-      height:18.18%;
+      height:9.9vh;
       width:100vw;
     display: flex;
     align-items: flex-end;
@@ -50,7 +58,9 @@
     color: #000000;
   }
   .cards{
-    height:82.82%;
+      position: sticky;
+      top: 0;
+    height:40.1vh;
     width:100vw;
      display: flex;
     align-items: center;
@@ -104,21 +114,20 @@
     color: #88878A;
   }
   .finish_component{
-  
     height: 100vh;
     width:100vw;
     background-color: #140D91;
     display:flex;
    align-items: center;
-   justify-content: flex-start;
+   justify-content: center;
    background-image: url("./Background-img.svg");
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
    flex-direction: column;
-  
-}
-.finish_baslik{
-    height: 50%;
-    
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   color: #fff;
 }
